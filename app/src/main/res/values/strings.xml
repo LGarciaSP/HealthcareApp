@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Healthcare App</string>
+    <string name="title">Welcome to \n<font color="#6666FF">D</font>&amp;<font color='#FF3333'>H</font></string>
+    <string name="title2"><font color="#6666FF">D </font>&amp;<font color='#FF3333'> H</font></string>
+    <string name="titleE"><font color="#6666FF">D </font>&amp;<font color='#FF3333'> H</font> <font color='#FF424242'>         Exercise</font></string>
+    <string name="titleD"><font color="#6666FF">D </font>&amp;<font color='#FF3333'> H</font> <font color='#FF424242'>         Diet</font></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="nav_settings">Settings</string>
+
+</resources>

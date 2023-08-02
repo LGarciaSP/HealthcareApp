@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/diabetesCardLayout"
+    android:clickable="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="25dp"
+    android:layout_margin="30px"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="20dp"
+    android:background="@drawable/d_border"
+    >
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/card_image"
+        android:src="@mipmap/nav_profile_round"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="20sp"
+        android:id="@+id/card_title"
+        android:layout_toRightOf="@id/card_image"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_url"
+        android:text="URL"
+        android:layout_toRightOf="@id/card_image"
+        android:layout_toEndOf="@+id/card_title"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="20dp"
+        android:textColor="@color/blue_500"/>
+
+
+</RelativeLayout>
